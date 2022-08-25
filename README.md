@@ -1,2 +1,2 @@
 # The Adventures of Pudding
-A game about a boy named Pudding
+A tranquil game about an intuitive boy named Pudding.
