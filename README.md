@@ -1,2 +1,2 @@
-# theadventuresofpudding
- A game about a boy named Pudding
+# The Adventures of Pudding
+A game about a boy named Pudding
