@@ -3,7 +3,7 @@ lg = love.graphics
 local player = require "player"
 
 function love.load()
-	--nil
+	gunShot = love.audio.newSource("sounds/gunshot.mp3", "stream")
 end
 
 function love.update(dt)
@@ -22,6 +22,10 @@ function love.update(dt)
   if love.keyboard.isDown("down") then
     player.y = player.y + player.speed * dt
   end
+
+	if love.keyboard.isDown("space") then
+		love.audio.play(gunShot)
+	end
 end
 
 function love.draw()
