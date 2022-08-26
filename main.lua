@@ -3,7 +3,7 @@ lg = love.graphics
 local player = require "player"
 
 function love.load()
-	background = lg.newImage('sprites/theskeldbg.png')
+	--nil
 end
 
 function love.update(dt)
@@ -25,7 +25,7 @@ function love.update(dt)
 end
 
 function love.draw()
-	lg.draw(player.sprite, player.x, player.y, player.angle, 0.1, 0.1, player.sprite:getWidth() / 2, player.sprite:getHeight() / 2)
+	lg.draw(player.sprite, player.x, player.y, player.angle, 2, 2, player.sprite:getWidth() / 2, player.sprite:getHeight() / 2)
 end
 
 return main

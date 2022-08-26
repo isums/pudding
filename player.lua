@@ -7,6 +7,6 @@ player.rotateSpeed = 4
 player.speed = 320
 player.speedX = 0
 player.speedY = 0
-player.sprite = lg.newImage('sprites/redsprite.png')
+player.sprite = lg.newImage('sprites/pudding1.png')
 
 return player
