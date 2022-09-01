@@ -31,5 +31,3 @@ end
 function love.draw()
 	lg.draw(player.sprite, player.x, player.y, player.angle, 2, 2, player.sprite:getWidth() / 2, player.sprite:getHeight() / 2)
 end
-
-return main

@@ -1,12 +1,13 @@
 --love.load
-player = {}
-player.x = lg.getWidth() / 2
-player.y = lg.getHeight() / 2
-player.angle = 0
-player.rotateSpeed = 4
-player.speed = 320
-player.speedX = 0
-player.speedY = 0
-player.sprite = lg.newImage('sprites/pudding1.png')
+player = {
+    x = lg.getWidth() / 2,
+    y = lg.getHeight() / 2,
+    angle = 0,
+    rotateSpeed = 4,
+    speed = 320,
+    speedX = 0,
+    speedY = 0,
+    sprite = lg.newImage('sprites/pudding1.png')
+}
 
 return player
