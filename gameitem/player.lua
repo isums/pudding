@@ -1,5 +1,5 @@
 --love.load
-player = {
+local player = {
     x = lg.getWidth() / 2,
     y = lg.getHeight() / 2,
     angle = 0,
